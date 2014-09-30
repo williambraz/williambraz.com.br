@@ -1,4 +1,12 @@
-/* Customização */
+html,body,header
+{
+    height:100% !important;
+}
+
+header div 
+{
+    height:100%;
+}
 
 li
 {
@@ -11,20 +19,13 @@ h3
     text-align: center;
 }
 
+section.success 
+{
+    background: #29d;
+}
+
 .carousel-control.left, .carousel-control.right {
     background-image: none
-}
-
-/*header 100% height */
-
-html,body,header
-{
-	height:100% !important;
-}
-
-header div 
-{
-    height:100%;
 }
 
 .home
@@ -63,12 +64,22 @@ hr.star-primary:after
 #sobre-intro hr.star-light:after
 {
     content: "\f19d";
+    background: #29d;
 } 
 
 #contato-intro hr.star-primary:after
 {
     content: "\f003";
 } 
+
+.navbar-fixed-top
+{
+    padding: 10px;
+}
+
+.navbar-fixed-top.navbar-shrink {
+padding: 0px 0;
+}
 
 @keyframes fadein {
     from {
