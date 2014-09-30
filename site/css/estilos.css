@@ -1,0 +1,104 @@
+/* Customização */
+
+li
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/*header 100% height */
+
+html,body,header
+{
+	height:100% !important;
+}
+
+header div 
+{
+    height:100%;
+}
+
+.home
+{	
+    display: table;
+    margin: auto;
+}
+
+#home-intro
+{
+	display: table-cell !important;
+	vertical-align: middle !important;
+	text-align: center !important;
+
+	animation: fadein 1s;
+	-moz-animation: fadein 1s; /* Firefox */
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+	-o-animation: fadein 1s; /* Opera */
+}
+
+hr.star-primary:after
+{
+    content: "\f0ad";
+}
+
+#home-intro hr.star-light:after 
+{
+    content: "\f11b";
+}
+
+#portfolio-intro hr.star-primary:after
+{
+    content: "\f02d";
+} 
+
+#sobre-intro hr.star-light:after
+{
+    content: "\f19d";
+} 
+
+#contato-intro hr.star-primary:after
+{
+    content: "\f003";
+} 
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
